@@ -22,8 +22,8 @@ describe('employees', function() {
     });
   });
 
-  describe('destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value)', function () {
-    it('updates `employee` with the given `key` and `value` (it is destructive) and returns the entire updated employee', function () {
+  describe('(employee, key, value)', function () {
+    it('updates `employee` with the given `key` and `value` (it is desdestructivelyUpdateEmployeeWithKeyAndValuetructive) and returns the entire updated employee', function () {
       expect(destructivelyUpdateEmployeeWithKeyAndValue(employee, 'streetAddress', '12 Broadway')).to.eql({
         name: 'Sam',
         streetAddress: '12 Broadway'
